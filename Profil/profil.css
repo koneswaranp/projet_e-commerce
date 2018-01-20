@@ -1,0 +1,170 @@
+/*PROFIL (THANU)*/
+/* NAVBAR */
+.navbar {
+    position: fixed;
+    width: 100%;
+    background: #404040;
+    margin-top: 0;
+    opacity: 0.9;
+    z-index: 2;
+    color: #eeeeee;
+
+}
+.title h3{
+    border: solid 2px #eeeeee;
+    font-size: 1em;
+    text-align: center;
+    padding: 1vh 1vw;
+}
+
+
+.link {
+    margin-top: 5vh;
+}
+
+.link li {
+    list-style-type: none;
+    display:  inline-block;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    padding-right: 2vw;
+}
+
+.link .barre {
+    color: #1da1f2;
+}
+
+a {
+    text-decoration: none;
+    color: #eeeeee;
+    font-size: 1.2em;
+}
+
+body {
+    background-color: #f5f5f5;
+}
+
+
+h1 {
+
+    display: block;
+    font-size: 2em;
+    font-weight: bold;
+    text-align: bottom;
+    color: #6d6969;
+    font-family: cursive;
+    text-transform: capitalize;
+    vertical-align: text-bottom;
+    position: relative;
+    text-align: center;
+}
+
+/* .pdp {
+    /*background-image: url(./includes/logo.png);
+    background-repeat: no-repeat;
+    width: 10px;
+    height: 10px;
+    padding: 0;
+    float: right;
+}
+*/
+
+span.label_profil {
+
+    font-weight: bold;
+}
+
+#pdp {
+    text-align: center;
+    margin-right: 2vw;
+
+}
+div#pdp img{
+    text-align: center;
+    border-radius: 5px;
+    /*position: center;*/
+    /*padding: 10px;
+    margin: auto;
+    */
+    margin-top: 3vh;
+    border: 3px solid #60baef;
+    -moz-border-radius: 7px;
+    -webkit-border-radius: 7px;
+    border-radius: 7px;
+    border-style: groove;
+}
+
+.vide {
+    height: 10vh;
+    width: 100%;
+}
+
+.cover {
+    margin-top: 10vh;
+    margin: auto;
+    padding: auto;
+    width: 97%;
+    height: 270px;
+    background-color: #BABABA;
+}
+
+.cvr {
+    background-image: url('../img/darkness.png');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    position: center;
+    /* margin: 50px; */
+    /* margin: auto; */
+    padding: auto;
+    /* width: 97%; */
+    height: 192px;
+    width: 100%;
+    margin: auto;
+    
+
+}
+
+.desc {
+    background-color: #727676;
+    margin: auto;
+    padding: auto;
+    width: 95%;
+    height: 85%;
+
+}
+
+.web {
+    background-color: #c1bdc4;
+    margin: auto;
+    padding: auto;
+    width: 95%;
+    padding: 1%;
+    text-align: center;
+}
+
+
+.description {
+    background-color: #c1bdc4;
+    position: center;
+    margin: 4%;
+    padding: 5%;
+    text-align: justify;
+    font-size: 1.5em;
+    text-align: center;
+}
+
+
+.erreur{
+    margin: auto;
+    padding: auto;
+    text-align: center;
+    
+}
+
+
+
+a:hover {
+    text-decoration: none;
+    color: #1da1f2;
+}
